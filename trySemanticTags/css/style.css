@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+
+.bg-header {
+    background-image: url("../images/web-development-course.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-top: 1px solid transparent;
+}
+
+.bg-header-content {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+.bg-header-content p {
+    border-bottom: 2px solid white;
+    background-color: rgba(0,0,0, 0.6);
+    display: inline;
+    padding: 10px 30px;
+}
+
+.bg-header-content h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 5px red;
+}
+
+.bg-header nav li {
+    display: inline-block;
+    font-family: sans-serif;
+    border: 2px solid white;
+    margin: 5px;
+}
+.bg-header nav ul {
+    text-align: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bg-header nav a {
+    display: block;
+    /* background-color: black;  */
+    background-color: rgba(0,0,0, 0.4); /*Rgb-alpha( , , , transparência do bg-color)*/
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px; 
+}
+
+.bg-header nav a:hover{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-section {
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card {
+    width: 32%;
+    height: 250px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.card p {
+    background-color: rgba(0,0,0, 0.9);
+    color: white;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: -15px;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+}
+.card-2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.rodape {
+    height: 60px;
+    background-color: darkslategrey;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+.pdiv {
+    margin-top: 100px;
+}

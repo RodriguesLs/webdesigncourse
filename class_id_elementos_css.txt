@@ -1,0 +1,20 @@
+
+
+##Pseudo-classes
+
+a:link {}
+    a:visited {}
+        a:hover {}
+            a:active {}
+
+##list-style
+list-style-type
+list-style-position
+list-style-image
+
+#background attributes
+	background-image: url();
+	background-attachment: fixed; #como a imagem se comportará
+	background-size: cover; [containt/cover - "corta uma parte da imagem"]
+	background-repeat: no-repeat;
+	background-position: right bottom; #aliada ao atributo -size:cover, faz com que o corte que deve haver na imagem não ocorra no canto inferior direito, porque é por aí que a imagem é alinhada.

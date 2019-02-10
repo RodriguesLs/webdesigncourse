@@ -1,0 +1,22 @@
+h1 { color: cyan; }
+
+p { 
+    font-size: 14px; 
+    margin: 30px 20px;
+   
+}
+
+.first-class { 
+    color: red; 
+    padding: 20px 30px 10px;
+    border-bottom: solid 10px green;
+}
+
+
+#first_id { 
+    color: magenta; 
+    border: dashed 10px blue;
+    padding: 10px;
+    text-align: justify;
+    font-family: arial;
+}

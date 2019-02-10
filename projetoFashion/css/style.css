@@ -1,0 +1,121 @@
+
+body {
+    padding-left: 10%;
+}
+
+.top {
+    background-image: url(images/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 90%;
+    position: relative;
+}
+
+.top img {
+    position: absolute;
+    top: 7px;
+    left: 150px;
+      
+}
+.top nav {
+    background-color: rgb(2, 39, 46);
+    height: 10%;
+}
+.top nav a {
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: color .3s linear;
+}
+
+.top nav a:hover {
+    color: rgb(255,0,0, 0.8)
+}
+
+.top nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.top nav ul {
+    text-align: right;
+    list-style-type: none;
+    padding-right: 5%;
+    margin-top: 2px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+main {
+
+    overflow: auto;
+
+}
+.main-top {
+    text-align: center;
+    width: 70%;
+    position: absolute;
+    margin: 4% 4%;
+    line-height: 2;
+}
+
+.main-top h1{
+    font-family: sans-serif;
+    font-size: 34px;
+    text-shadow: 2px 3px 4px red;
+}
+
+.main-mid {
+    position: absolute;
+    top: 135%;
+    padding-right: 0; 
+    width: 80%;
+    overflow: auto;
+    margin-left: 8%;
+}
+
+.card {
+    float:left;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.card h3 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black;
+    padding: 0;
+    margin: 2px;
+}
+
+.card p {
+    font-size: 15px;
+    padding: 0;
+    margin: 3px;
+}
+
+.map {
+    position: absolute;
+    top: 180%;
+    right: 18%;
+}
+
+.map iframe {
+    width: 800px; 
+    height: 450px;
+    border: 0;
+}
+
+.foot {
+    background-color: rgb(2, 39, 46);
+    padding: 25px;
+    text-align: center;
+}
