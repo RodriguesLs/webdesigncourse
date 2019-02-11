@@ -12,7 +12,7 @@
 
     <body>
         <header class="main-header">
-            <a href="index.html" class="main-header-link">
+            <a href="index.html" class="main-header-link imagem-link">
                 <img src="images/avatar.jpg" alt="">
             </a>
             <h1 class="main-header-title">
@@ -37,50 +37,57 @@
            
             <section class="main-content-section">
                 <h3>Recent work</h3>
-                <article class="recent-works-cards">
-                    <a href="#">
-                        <img src="images/thumbs/01.jpg" alt="">
-                    </a>
-                    <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </article>
-                <article class="recent-works-cards">
-                    <a href="#">
-                        <img src="images/thumbs/02.jpg" alt="">
-                    </a>
-                    <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </article>
-                <article class="recent-works-cards">
-                    <a href="#">
-                        <img src="images/thumbs/03.jpg" alt="">
-                    </a>
-                    <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </article>
-                <article class="recent-works-cards">
-                    <a href="#">
-                        <img src="images/thumbs/04.jpg" alt="">
-                    </a>
-                    <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </article>
-                <article class="recent-works-cards">
-                    <a href="#">
-                        <img src="images/thumbs/05.jpg" alt="">
-                    </a>
-                    <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </article>
-                <article class="recent-works-cards">
-                    <a href="#">
-                        <img src="images/thumbs/06.jpg" alt="">
-                    </a>
-                    <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                </article>
+                <div class="row">
+                    <div class="col-2">
+                        <article class="recent-works-cards">
+                            <a class="imagem-link" href="#">
+                                <img src="images/thumbs/01.jpg" alt="">
+                            </a>
+                            <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </article>
+                        <article class="recent-works-cards">
+                            <a class="imagem-link" href="#">
+                                <img src="images/thumbs/02.jpg" alt="">
+                            </a>
+                            <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </article>
+                        <article class="recent-works-cards">
+                            <a class="imagem-link" href="#">
+                                <img src="images/thumbs/03.jpg" alt="">
+                            </a>
+                            <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </article>
+                    </div>
+                    <div class="col-2">
+                        <article class="recent-works-cards">
+                            <a class="imagem-link" href="#">
+                                <img src="images/thumbs/04.jpg" alt="">
+                            </a>
+                            <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </article>
+                        <article class="recent-works-cards">
+                            <a class="imagem-link" href="#">
+                                <img src="images/thumbs/05.jpg" alt="">
+                            </a>
+                            <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </article>
+                        <article class="recent-works-cards">
+                            <a class="imagem-link" href="#">
+                                <img src="images/thumbs/06.jpg" alt="">
+                            </a>
+                            <p class="recent-works-card-title"> Fatigatis sed non satiatis </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        </article>
+                    </div>
+                </div>
                 <a href="#" title="Learn more" class="btn-default">See all works</a>
             </section>
+            
             <section class="main-content-section">
                 <h3>Get in touch</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -278,10 +285,10 @@
                     <input type="email" name="email" id="email">
                     
                     <select>
-                        <options value="0">Selecione</options>
-                        <options value="1">Opção 1</options>
-                        <options value="2">Opção 2</options>
-                        <options value="3">Opção 3</options>
+                        <option value="0">Selecione</option>
+                        <option value="1">HTML</option>
+                        <option value="2">CSS</option>
+                        <option value="3">JavaScript</option>
                     </select>
 
                     <label><input type="radio" value="low" name="priority">Low priority</label>
@@ -294,8 +301,8 @@
                     <label for="msg">Message</label>
                     <textarea placeholder="Type a message" id="msg"></textarea>
 
-                    <input type="submit" class="button-default" value="Send">
-                    <input type="reset" class="button-default-stroke" value="Reset">
+                    <input type="submit" class="btn-default" value="Send">
+                    <input type="reset" class="btn-default btn-default-stroke" value="Reset">
                 </form>
             </section>
 
