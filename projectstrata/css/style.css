@@ -58,6 +58,14 @@ blockquote {
     padding: .5em 0 .5em 1.5em;
 }
 
+blockquote p {
+    margin-bottom: .5em;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
 code {
     background-color: #f7f7f7;
     border-radius: .35em;
@@ -81,6 +89,14 @@ ul, ol {
 
 li {
     padding-left: .5em;
+}
+
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: block;
 }
 
 .ul-icons {
@@ -294,8 +310,12 @@ textarea {
     display: inline-block;
     padding-right: 5px;
 }
-.icons-link{
+.icons-link {
     border: none;
+    color: #777;
+}
+
+.copyright a {
     color: #777;
 }
 
