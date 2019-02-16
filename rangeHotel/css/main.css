@@ -7,7 +7,11 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Oxygen";
 }
-
+.clearfix:after, .row:after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .top-header{
     text-align: center;
 }
@@ -102,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content-article {
     margin-bottom: 3.5em;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .main-content-title {
@@ -149,4 +153,53 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.1em;
     text-decoration: none;
     color: white;
+}
+
+@media screen and (min-width: 48.75em) {
+    .top-header {
+
+    }
+
+    .top-header-logo {
+        float:left;
+    }
+    .top-nav {
+        background-color: transparent;
+        float: right;
+        margin-top: 2em;
+    }
+
+    .top-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-nav li {
+        display: inline-block;
+    }
+
+    .top-nav a{
+        color: #713a84;
+    }
+
+    .top-nav a:hover{
+        background-color: #e7d9fc;
+    }
+
+    .top-content {
+        background-color: #521a66;
+    }
+    .top-content-title, .top-content-subtitle {
+        color: white;
+    }
+
+    .col-1-4 {
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
+    .main-content-article .btn {
+        float: right;
+    }
 }
